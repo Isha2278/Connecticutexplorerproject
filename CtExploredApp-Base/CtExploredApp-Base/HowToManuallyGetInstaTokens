@@ -1,0 +1,64 @@
+Ensure that the user you are trying to generate is a test user, to do this they must be added on the Meta Dev portal & accept the invitation to be a test user inside of the instagram app 
+
+Dev Portal - Add new users
+https://developers.facebook.com/apps/318500067487359/roles/roles/
+
+Once a user has accepted you can generate an access token by opening the link below and signing in (copy it exactly)
+https://api.instagram.com/oauth/authorize?client_id=6988565697859554&redirect_uri=https://qnrenwollubpewyiwyyf.supabase.co/functions/v1/igexchange&scope=user_profile,user_media&response_type=code
+
+The request should return to a 404 page not found but the Access Token will be found in the URL, below is a sample response from the ctexploreddev account
+https://localhost:3000/instagram-redirect?code=AQA9ClpGP6AHxa9RTOv9n_HH41frl-wIKqBlxSgmbJM-q7QmqVHAfjrqEevPzJfC--SDp3QgwwpsH4MMFDDrSoxOlctvyFobIkpcoRGseXr-Frk3IV6U2BtbHGUqmMF_PX7xBV-f3DTXUt9Ce09xuOlGnt0bz9jcuztRU2rb5zp2VWfg8rsu-dfjh_ArmAmSWBr9WeIgiEmlb6OqDTbUAVx3uxPx6KOb86DShFru6yGfTw#_
+
+copy the code, ommiting the '#_" at the end this is the 
+Access Code: AQA9ClpGP6AHxa9RTOv9n_HH41frl-wIKqBlxSgmbJM-q7QmqVHAfjrqEevPzJfC--SDp3QgwwpsH4MMFDDrSoxOlctvyFobIkpcoRGseXr-Frk3IV6U2BtbHGUqmMF_PX7xBV-f3DTXUt9Ce09xuOlGnt0bz9jcuztRU2rb5zp2VWfg8rsu-dfjh_ArmAmSWBr9WeIgiEmlb6OqDTbUAVx3uxPx6KOb86DShFru6yGfTw
+
+With this access code we can request a LLT, Meta recommends using a cURL to do this (as you need to submit a form compared to a normal "data" request as used previously), here is a sample request with everything BUT the User Access Code (or code pramater in the cURL request)
+
+(cUrl is included by default in Windows Powershell & Linux/Macos Terminals)
+
+curl -X POST \
+  https://api.instagram.com/oauth/access_token \
+  -F client_id=6988565697859554 \
+  -F client_secret=cb3facdcd98222627c0261a87d4098f4 \
+  -F grant_type=authorization_code \
+  -F redirect_uri=https://localhost:3000/instagram-redirect \
+  -F code={user-access-code}
+
+This will return a JSON object containing the UserID & Short Life User Access Token, sample response below
+
+{"access_token": "IGQWROM3pDeE0zdVVwLTFHenZAHeWpvNWxlZAnFEYjJBa0pWQkkxU0tvMkxXUFdROHhsanU3c0o0b0VuVjhtbm5kZAm9sVTNTVjZAEZAU1WSjdYcGxnTnZAiXzRHMlhfRGdQWkFIZADNoeGg3MGU5LVFuc3lYTWZAqX0JDWnI2ZAjhiX1ZAYR3JLQQZDZD", "user_id": 25028516973458966}
+
+We must now do another cURL request for a LongLife Token
+
+curl -i -X GET "https://graph.instagram.com/access_token?grant_type=ig_exchange_token&client_secret=cb3facdcd98222627c0261a87d4098f4&access_token={user-access-token}"
+
+You will recieve a Response like this
+
+HTTP/2 200 
+etag: "1c1448713163476a49c2b1b6137df59f444a66ef"
+content-type: application/json; charset=UTF-8
+vary: Origin
+vary: Accept-Encoding
+cross-origin-resource-policy: cross-origin
+x-app-usage: {"call_volume":0,"cpu_time":0}
+instagram-api-version: v19.0
+access-control-allow-origin: *
+strict-transport-security: max-age=31536000; preload; includeSubDomains
+pragma: no-cache
+cache-control: private, no-cache, no-store, must-revalidate
+expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-fb-request-id: A0QiZNONEeqh3Lh9Vwkh9eP
+x-fb-trace-id: FkLDvJRtuII
+x-fb-rev: 1012181956
+x-stack: www
+x-fb-debug: DDtnTckb6TaURcWwursWs4IDoIgFmwERZAMyJdD4DTYu7i8Y5Ouc5UkSaBa4krLdfgEXYw4te+U2dr22TF5fpg==
+content-length: 215
+date: Wed, 20 Mar 2024 17:55:07 GMT
+
+{"access_token":"IGQWRQaTF6YmI2MUNrOEhGMkt4LVFRcU1iTGN5NHJtLWFscUNXTDVfSWRFMThLN21UeFN3dUZAYOVVPRWE1cDVyQkt6cUJza0ZAkUnFXS3VIMmJBbWZA4akUtSERGRzZAVY2RVQmt3WGlmTkFaZAwZDZD","token_type":"bearer","expires_in":5184000}
+
+
+Including what seems to be a cookie in addition to an access token w/ an expiry time
+
+
+  

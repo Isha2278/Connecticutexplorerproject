@@ -1,0 +1,201 @@
+{
+  "trails": [
+    {
+      "id": "1",
+      "title": "New Haven",
+      "imageUrl": "https://npr.brightspotcdn.com/legacy/sites/wnpr/files/201312/New_Haven_Yale_University.jpg",
+      "latitude": "41.31093904543663",
+      "longitude": "-72.95027195429769",
+      "pointsOfInterest": [
+        {
+          "id": "1",
+          "fullId": "1.1",
+          "title": "Yale University",
+          "imageUrl": "https://media.istockphoto.com/id/475315086/photo/yale-university-buildings.jpg?s=612x612&w=0&k=20&c=FygHbo4S-clsnKNqz11PXtoISlRFEFbLGYrzQrb9_gY=",
+          "description": "Yale University is a prestigious Ivy League institution known for its excellent academic programs and historic campus.",
+          "address": "123 Main St",
+          "latitude": "41.316398959663296",
+          "longitude": "-72.92219097739498"
+        },
+        {
+          "id": "2",
+          "fullId": "1.2",
+          "title": "New Haven Green",
+          "imageUrl": "https://static.wixstatic.com/media/8b2f7d_28fa74bd18c64b89a19e642738e746c8~mv2.jpg/v1/fill/w_560,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8b2f7d_28fa74bd18c64b89a19e642738e746c8~mv2.jpg",
+          "description": "New Haven Green is a central park in downtown New Haven, surrounded by historic churches and buildings.",
+          "address": "123 Main St",
+          "latitude": "41.308467549954024",
+          "longitude": "-72.92552245440065"
+        },
+        {
+          "id": "3",
+          "fullId": "1.3",
+          "title": "Peabody Museum of Natural History",
+          "imageUrl": "https://peabody.yale.edu/sites/default/files/styles/cropped_image/public/page-content/2020-09/slider_exteriorToro_am_lq_mini_0.jpg?itok=EKkH938Q",
+          "description": "The Peabody Museum is home to a diverse collection of natural history specimens, including dinosaurs and minerals.",
+          "address": "123 Main St",
+          "latitude": "41.31599722645145",
+          "longitude": "-72.92122178152366"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Norwalk",
+      "imageUrl": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcS6dvX4s6H34tX5JAtPpWAKGB4DuzadKI6K1pLjLe63lybsL6z8QWUwgE1la1cz-rv2WA-GEihOB-ZqVzkMG5NQA646efSZmwUMZhVnIA",
+      "latitude": "41.1190008",
+      "longitude": "-73.4184021",
+      "pointsOfInterest": [
+        {
+          "id": "1",
+          "fullId": "2.1",
+          "title": "Maritime Aquarium",
+          "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipPGlGe4oR8u3XveR5u8ZWbcjbFSmADjMPLnXu6K=s1360-w1360-h1020",
+          "description": "A state-of-the-art aquarium showcasing marine life from Long Island Sound and around the world.",
+          "address": "10 North Water St, Norwalk, CT 06854",
+          "latitude": "41.101197164341414",
+          "longitude": "-73.4165607171836"
+        },
+        {
+          "id": "2",
+          "fullId": "2.2",
+          "title": "Stepping Stones Museum for Children",
+          "imageUrl": "https://assets-global.website-files.com/6328b7ca68e63e78573b1672/65d4c6e0bd4c01c224ae65e8_64b041fd9989ad9d70fc8fb4_1065x650-Base-Front-Entrance.jpeg",
+          "description": "A museum designed for hands-on learning experiences for children of all ages.",
+          "address": "303 West Ave, Norwalk, CT 06850",
+          "latitude": "41.11012174200535",
+          "longitude": "-73.4155516325232"
+        },
+        {
+          "id": "3",
+          "fullId": "2.3",
+          "title": "Sheffield Island Ferry",
+          "imageUrl": "https://d2j6dbq0eux0bg.cloudfront.net/images/25642211/1338801418.jpg",
+          "description": "Take a ferry to Sheffield Island for hiking, picnicking, and exploring historical sites.",
+          "address": "1 South Water St, Norwalk, CT 06854",
+          "latitude": "41.097881180463865",
+          "longitude": "-73.415914253414"
+        },
+        {
+          "id": "4",
+          "fullId": "2.4",
+          "title": "Lockwood-Mathews Mansion Museum",
+          "imageUrl": "https://www.lockwoodmathewsmansion.com/wp-content/uploads/2015/12/NorwalkCTLockwoodMansionSoSide09032007.jpg",
+          "description": "A historic mansion showcasing 19th-century American decorative arts and furniture.",
+          "address": "295 West Ave, Norwalk, CT 06850",
+          "latitude": "41.108888671341965",
+          "longitude": "-73.41714447485322"
+        },
+        {
+          "id": "5",
+          "fullId": "2.5",
+          "title": "Calf Pasture Beach",
+          "description": "A historic beach offering swimming, sunbathing, picnicking, and stunning views of Long Island Sound.",
+          "imageUrl": "https://s.hdnux.com/photos/01/32/71/71/23830088/3/rawImage.jpg",
+          "address": "Calf Pasture Beach Rd, Norwalk, CT 06850",
+          "latitude": "41.08266598351277",
+          "longitude": "-73.39716505599417"
+        },
+        {
+          "id": "6",
+          "fullId": "2.6",
+          "title": "SoNo Collection",
+          "description": "An outdoor shopping, dining, and entertainment complex with a variety of stores, restaurants, and a movie theater.",
+          "imageUrl": "https://s.hdnux.com/photos/01/26/54/34/22726428/4/rawImage.jpg",
+          "address": "100 North Water St, Norwalk, CT 06854",
+          "latitude": "41.104632971342554",
+          "longitude": "-73.41890967485338"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Hartford's 1st Black Congregation Tour",
+      "imageUrl": "https://live.staticflickr.com/4478/26300152219_68744e1b29_b.jpg",
+      "latitude": "41.7658",
+      "longitude": "-72.6734",
+      "pointsOfInterest": [
+        {
+          "id": "1",
+          "fullId": "4.1",
+          "title": "First Church of Christ, now Center Church",
+          "imageUrl": "https://cdn4.picryl.com/photo/2011/01/01/center-church-steeple-in-hartford-connecticut-1024.jpg",
+          "description": "In 1819, a group of African Americans in Hartford grew weary of being assigned seats in the galleries and in the rear of churches and decided to begin worshipping on their own in the conference room of the First Church of Christ, now Center Church, in Hartford. This became the first black Congregational Church in Connecticut, the third oldest in the nation.",
+          "address": "60 Gold St, Hartford, CT, 06103",
+          "latitude": "41.764600",
+          "longitude": "-72.674200"
+        },
+        {
+          "id": "2",
+          "fullId": "4.2",
+          "title": "The African American Religious Society of Hartford",
+          "imageUrl": "https://lostnewengland.com/wp-content/uploads/2016/08/981_1906-04-01-csl.jpg",
+          "description": "The congregation moved its services to a building on State Street in 1820. That same year, the congregation established itself as The African American Religious Society of Hartford and resolved to build a house of worship where all would be welcome and no one would have assigned seating.",
+          "address": "State Street, Hartford, CT, 06103",
+          "latitude": "41.765714",
+          "longitude": "-72.671041"
+        },
+        {
+          "id": "3",
+          "fullId": "4.3",
+          "title": "First Hartford Colored Congregational Church, later The Talcott Street Church",
+          "imageUrl": "http://emuseum.chs.org/emuseum/internal/media/dispatcher/22646/preview;jsessionid=B19426724B791F728226C7875E60D9B8",
+          "description": "In 1826 the congregation purchased property at the corner of Talcott and Market streets, where they built a stone-and-brick church. The church became a key institution in Hartford's black community and a center for abolitionist and social activity. Noted lecturers including Arnold Buffman, former president of the New England Anti-Slavery Society, and abolitionist Rev. Henry Highland Garner helped establish the church as an anti-slavery meetinghouse.",
+          "address": "1 Talcott Street, Hartford, CT, 06103",
+          "latitude": "41.768742",
+          "longitude": "-72.67146"
+        },
+        {
+          "id": "4",
+          "fullId": "4.4",
+          "title": "District school known as the Brown School",
+          "imageUrl": "http://emuseum.chs.org/emuseum/internal/media/dispatcher/14813/preview",
+          "description": "Realizing that members could not prosper without an education, the founders established a district school. For many years this was the only place in Hartford where black children could learn to read and write. The Brown School was named for Flavius Brown. Image courtesy of Connecticut Museum of Culture and History.",
+          "address": "Talcott & Market Streets, Hartford, CT, 06103",
+          "latitude": "41.768598",
+          "longitude": "-72.67073"
+        },
+        {
+          "id": "5",
+          "fullId": "4.5",
+          "title": "Rev. Dr. James W.C. Pennington",
+          "imageUrl": "http://emuseum.chs.org/emuseum/internal/media/dispatcher/16077/preview",
+          "description": "The church had several pastors in its early years. Among them was Rev. Dr. James W.C. Pennington, who is remembered as an eloquent orator, preacher, and freedom fighter. A fugitive slave, he escaped from Maryland through the Underground Railroad. For years, Pennington feared that he would be dragged back into slavery, until Harriet Beecher Stowe’s brother-in-law, John Hooker, purchased him for $150. Pennington received his freedom papers on June 3, 1851. His Bible remains in the Church’s possession. Pennington lived at 35 Village Street, East Hartford, just across the bridge from the Talcott St. Church. Village Street no longer exits.",
+          "address": "35 Village Street, Hartford, CT, 06103",
+          "latitude": "41.770397",
+          "longitude": "-72.672995"
+        },
+        {
+          "id": "6",
+          "fullId": "4.6",
+          "title": "Rev. Dr. James A. Wright",
+          "imageUrl": "https://img.newspapers.com/img/img?user=5017852&id=369835501&clippingId=19611623&width=820&height=3137&crop=232_334_1796_6871&rotation=0",
+          "description": "In 1916, the arrival of Rev. Dr. James A. Wright, one of the most distinguished ministers in Hartford, ushered in a vibrant era for the church through two world wars and the beginning of the civil rights movement. The Baltimore native received degrees from Howard University, Andover Theological Seminary, and Harvard University and served as pastor for 43 years.",
+          "address": "58 Judson Street, Hartford, CT, 06120",
+          "latitude": "41.789253",
+          "longitude": "-72.678976"
+        },
+        {
+          "id": "7",
+          "fullId": "4.7",
+          "title": "Mother Bethel Methodist Church",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Mother_Bethel_AME_Church_6th_and_Lombard_Sts_Philadelphia_PA_%28DSC_3152%29.jpg",
+          "description": "Rev. Wright oversaw the merging of the Talcott Street Congrgational Church with Rev. Samuel Gilbeau and the congregation of Mother Bethel Methodist Church on November 19, 1953.",
+          "address": "1 Bellevue Square, Hartford, CT, 06120",
+          "latitude": "41.780328",
+          "longitude": "-72.673889"
+        },
+        {
+          "id": "8",
+          "fullId": "4.8",
+          "title": "Faith Congregational Church",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/FaithFront-7392.jpg/800px-FaithFront-7392.jpg",
+          "description": "Faith Congregational Church moved in 1954 to the former Windsor Avenue Congregational Church, built in 1871. Within a year after that move, the former church on Talcott Street was demolished after 128 years of service.",
+          "address": "2030 Main Street, Hartford, CT, 06120",
+          "latitude": "41.782791",
+          "longitude": "-72.675572"
+        }
+      ]
+    }
+  ]
+}
